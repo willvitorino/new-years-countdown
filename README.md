@@ -1,5 +1,7 @@
 # new-years-countdown
 
+🎉 **[Ver aplicação funcionando](https://willvitorino.github.io/new-years-countdown/)**
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
