@@ -1,11 +1,25 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CountdownBase from '@/views/CountdownBase.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main class="app">
+    <CountdownBase />
+  </main>
 </template>
 
-<style scoped></style>
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100dvh;
+  width: 100dvw;
+  box-sizing: border-box;
+}
+</style>
